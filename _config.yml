@@ -1,3 +1,18 @@
 title: My Writing Archive
 description: A personal author site for books, poetry, essays, and more.
 theme: minimal
+
+title: My Writing Archive
+description: A personal author site for books, poetry, essays, and more.
+theme: minimal
+navigation:
+  - title: Home
+    url: /
+  - title: Books
+    url: /collections/iron/
+  - title: Poetry
+    url: /collections/poetry/
+  - title: Essays
+    url: /collections/essays/
+  - title: Screenplays
+    url: /collections/screenplays/
