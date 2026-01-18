@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+    </title>
+    <style>
+      .site-nav { margin: 1.25rem 0 1.75rem; }
+      .site-nav a { margin-right: 0.9rem; text-decoration: none; }
+      .site-nav a:hover { text-decoration: underline; }
+      .muted { opacity: 0.75; }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 style="margin-bottom: 0.25rem;">
+        <a href="{{ site.baseurl }}/" style="text-decoration:none; color: inherit;">
+          {{ site.title }}
+        </a>
+      </h1>
+      <div class="muted">{{ site.description }}</div>
+
+      <nav class="site-nav">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/books">Books</a>
+        <a href="{{ site.baseurl }}/poetry">Poetry</a>
+        <a href="{{ site.baseurl }}/essays">Essays</a>
+        <a href="{{ site.baseurl }}/screenplays">Screenplays</a>
+        <a href="{{ site.baseurl }}/about">About</a>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
