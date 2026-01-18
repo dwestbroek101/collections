@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
-    </title>
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <style>
       .site-nav { margin: 1.25rem 0 1.75rem; }
       .site-nav a { margin-right: 0.9rem; text-decoration: none; }
@@ -13,7 +11,6 @@
       .muted { opacity: 0.75; }
     </style>
   </head>
-
   <body>
     <header>
       <h1 style="margin-bottom: 0.25rem;">
