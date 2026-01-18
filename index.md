@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Dalaney Westbroek
-
 Welcome — this is my writing archive. Here you’ll find **books**, **poetry**, **essays**, and **screenplays** (finished and in progress).
 
 ## Browse
