@@ -2,6 +2,9 @@ title: Dalaney Westbroek
 description: Books, poetry, essays, and screenplays — finished and in progress.
 theme: jekyll-theme-minimal
 
+url: "https://dwestbroek101.github.io"
+baseurl: "/collections"
+
 title: My Writing Archive
 description: A personal author site for books, poetry, essays, and more.
 theme: minimal
