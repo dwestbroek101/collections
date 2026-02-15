@@ -7,7 +7,7 @@ baseurl: "/collections"
 
 title: My Writing Archive
 description: A personal author site for books, poetry, essays, and more.
-theme: minimal
+theme: jekyll-theme-minimal
 navigation:
   - title: Home
     url: /
