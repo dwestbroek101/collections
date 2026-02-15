@@ -1,0 +1,53 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<section class="hero">
+  <h1>Welcome</h1>
+  <p>
+    This is my writing archive — <strong>books</strong>, <strong>poetry</strong>,
+    <strong>essays</strong>, <strong>screenplays</strong>, and short-form work.
+    Some pieces are finished; others are <strong>in progress</strong>.
+  </p>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <h3>Books</h3>
+    <p class="small">Long-form fiction and book projects.</p>
+    <p><a href="{{ '/books' | relative_url }}">Browse Books →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Poetry</h3>
+    <p class="small">Poems, sequences, and collections.</p>
+    <p><a href="{{ '/poetry' | relative_url }}">Browse Poetry →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Essays</h3>
+    <p class="small">Creative nonfiction and reflective writing.</p>
+    <p><a href="{{ '/essays' | relative_url }}">Browse Essays →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Screenplays</h3>
+    <p class="small">Film + TV scripts and experiments.</p>
+    <p><a href="{{ '/screenplays' | relative_url }}">Browse Screenplays →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Fragments</h3>
+    <p class="small">Short prose, vignettes, and in-between forms.</p>
+    <p><a href="{{ '/fragments' | relative_url }}">Browse Fragments →</a></p>
+  </div>
+</section>
+
+<h2>Currently in progress</h2>
+<ul>
+  <li><strong>Iron</strong> — <a href="{{ '/iron' | relative_url }}">read here</a></li>
+</ul>
+
+<p class="small">Last updated: {{ site.time | date: "%B %-d, %Y" }}</p>
