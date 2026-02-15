@@ -1,0 +1,15 @@
+/* Simple author-site styling */
+body { max-width: 860px; margin: 2.5rem auto; padding: 0 1.25rem; line-height: 1.65; }
+header { margin-bottom: 2rem; }
+.site-title { margin: 0; font-size: 1.8rem; }
+.site-desc { margin-top: 0.35rem; opacity: 0.75; }
+.site-nav { margin: 1rem 0 1.5rem; }
+.site-nav a { margin-right: 1rem; text-decoration: none; }
+.site-nav a:hover { text-decoration: underline; }
+
+.hero { padding: 1.25rem 1.25rem; border: 1px solid #e6e6e6; border-radius: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card { padding: 1rem; border: 1px solid #e6e6e6; border-radius: 14px; }
+.card h3 { margin-top: 0; margin-bottom: 0.35rem; }
+.small { font-size: 0.95rem; opacity: 0.85; }
+.badge { display: inline-block; font-size: 0.85rem; padding: 0.15rem 0.5rem; border: 1px solid #e6e6e6; border-radius: 999px; margin-left: 0.4rem; opacity: 0.85; }
