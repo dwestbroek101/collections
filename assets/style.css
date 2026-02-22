@@ -2,7 +2,7 @@
 
 :root{
   --bg: #162018;        /* dark green page background */
-  --paper: #ffffff;     /* reading pages */
+  --paper: #f4f6ef;     /* reading pages */
   --text: #e8efe8;      /* homepage text */
   --muted: #a8b8a8;
   --border: #324a35;
@@ -78,8 +78,8 @@ header{
 
 /* ===== READING PAGES ("BOOK MODE") ===== */
 .reading-page{
-  background: #f4f6ef;     /* soft sage paper */
-  color: #1c261c;          /* deep green text */
+  background: pink;     /* soft sage paper */
+  color: black;          /* deep green text */
   padding: 2rem;
   border-radius: 12px;
   border: 1px solid #BAC095;
