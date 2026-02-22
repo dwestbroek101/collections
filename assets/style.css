@@ -1,29 +1,98 @@
-/* Simple author-site styling */
+/* ===== GLOBAL COLOR PALETTE ===== */
+
 :root{
-  --bg: #f5f6ef;
-  --paper: #ffffff;
-  --text: #1f2328;
-  --muted: #5b6470;
-  --border: #BAC095;
-  --link: #3D4127;
+  --bg: #1e2b20;        /* dark green page background */
+  --paper: #ffffff;     /* reading pages */
+  --text: #e8efe8;      /* homepage text */
+  --muted: #a8b8a8;
+  --border: #324a35;
+  --link: #c7e0c7;
+  --accent: #3d5f42;
 }
 
-html, body { background: var(--bg); }
+/* ===== TYPOGRAPHY ===== */
 
-body { color: var(--text); }
+body{
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 860px;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
+  line-height: 1.7;
+  background: var(--bg);
+  color: var(--text);
+}
 
-a { color: var(--link); }
-body { max-width: 860px; margin: 2.5rem auto; padding: 0 1.25rem; line-height: 1.65; }
-header { margin-bottom: 2rem; }
-.site-title { margin: 0; font-size: 1.8rem; }
-.site-desc { margin-top: 0.35rem; opacity: 0.75; }
-.site-nav { margin: 1rem 0 1.5rem; }
-.site-nav a { margin-right: 1rem; text-decoration: none; }
-.site-nav a:hover { text-decoration: underline; }
+/* Links */
 
-.hero { padding: 1.25rem 1.25rem; background: var(--paper); border: 1px solid var(--border); border-radius: 14px; }
-.card { padding: 1rem; background: var(--paper); border: 1px solid var(--border); border-radius: 14px; }
-.badge { display: inline-block; font-size: 0.85rem; padding: 0.15rem 0.5rem; border: 1px solid var(--border); border-radius: 999px; margin-left: 0.4rem; opacity: 0.85; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
-.card h3 { margin-top: 0; margin-bottom: 0.35rem; }
-.small { font-size: 0.95rem; opacity: 0.85; }
+a{
+  color: var(--link);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* ===== HEADER / NAV ===== */
+
+header{
+  margin-bottom: 2rem;
+}
+
+.site-title{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.site-desc{
+  color: var(--muted);
+}
+
+.site-nav{
+  margin: 1rem 0 1.5rem;
+}
+
+.site-nav a{
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* ===== HOMEPAGE CARDS ===== */
+
+.hero, .card{
+  background: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.25rem;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card h3{
+  margin-top: 0;
+}
+
+/* ===== READING PAGES ("BOOK MODE") ===== */
+
+.reading-page{
+  background: var(--paper);
+  color: #111;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Small text */
+
+.small{
+  color: var(--muted);
+}
+
+.badge{
+  border: 1px solid var(--border);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
