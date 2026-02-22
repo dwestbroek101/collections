@@ -77,12 +77,13 @@ header{
 }
 
 /* ===== READING PAGES ("BOOK MODE") ===== */
-
 .reading-page{
-  background: var(--paper);
-  color: #111;
+  background: #f4f6ef;     /* soft sage paper */
+  color: #1c261c;          /* deep green text */
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 12px;
+  border: 1px solid #BAC095;
+  line-height: 1.75;
 }
 
 /* Small text */
