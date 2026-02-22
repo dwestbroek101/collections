@@ -96,3 +96,63 @@ header{
   padding: 0.15rem 0.5rem;
   border-radius: 999px;
 }
+
+
+/* --- layout helpers --- */
+.container { max-width: 860px; margin: 0 auto; padding: 0 1.25rem; }
+.center { text-align: center; }
+
+/* --- header symmetry --- */
+header { text-align: center; }
+.site-title { font-size: 2.2rem; letter-spacing: 0.2px; }
+.site-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.75rem 1.25rem; }
+.site-nav a { padding: 0.25rem 0; }
+
+/* --- typography polish --- */
+body { font-family: Georgia, "Times New Roman", serif; font-size: 18px; }
+h1, h2, h3 { line-height: 1.2; }
+h2 { margin-top: 2rem; }
+
+/* --- hero: feels like an author statement --- */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 16px;
+}
+.hero p { margin: 0.75rem auto 0; max-width: 56ch; }
+
+/* --- buttons/CTAs --- */
+.cta-row { display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.25rem; }
+.button {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--link);
+  text-decoration: none;
+}
+.button.primary {
+  background: var(--link);
+  color: var(--bg);
+  border-color: var(--link);
+}
+
+/* --- grid symmetry --- */
+.grid { margin-top: 1.25rem; }
+.card { text-align: center; }
+.card p { max-width: 40ch; margin: 0.5rem auto 0; }
+
+/* --- footer --- */
+footer { margin: 2.5rem 0 1.5rem; text-align: center; color: var(--muted); }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.25rem 0; opacity: 0.8; }
+
+/* --- keep reading pages “book mode” --- */
+.reading-page{
+  background: #fff;
+  color: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.reading-page a { color: #1a4aa3; } /* optional: standard readable blue in book mode */
