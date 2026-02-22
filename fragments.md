@@ -8,4 +8,4 @@ permalink: /fragments
 
 Short-form prose, experimental writing, and pieces that don’t quite belong anywhere else.
 
-## Coming soon
+- **College** *(in progress)* — [read]({{ '/fragments/college' | relative_url }})
