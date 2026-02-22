@@ -14,6 +14,4 @@ I care deeply about landscape—Appalachian woods, high desert air, mountain lig
 
 I prefer a degree of anonymity. The work, ideally, should speak first. This site functions as both archive and workshop: some pieces are finished, others ongoing.
 
-(Paste chosen draft here)
-
 </div>
