@@ -5,49 +5,49 @@ permalink: /
 ---
 
 <section class="hero">
-  <h1>Welcome</h1>
+  <h1>Dalaney Westbroek</h1>
   <p>
-    This is my writing archive — <strong>books</strong>, <strong>poetry</strong>,
-    <strong>essays</strong>, <strong>screenplays</strong>, and short-form work.
-    Some pieces are finished; others are <strong>in progress</strong>.
+    I write across form—novels, poems, essays, and screenplays—drawn to questions of home, systems, religion, and the natural world. Much of my work explores how people build meaning: through memory, ritual, language, and the landscapes they inhabit.
   </p>
+
+  <div class="cta-row">
+    <a class="button primary" href="{{ '/books' | relative_url }}">Start with Books</a>
+    <a class="button" href="{{ '/fragments' | relative_url }}">Read Something Short</a>
+    <a class="button" href="{{ '/about' | relative_url }}">About</a>
+  </div>
 </section>
 
 <section class="grid">
   <div class="card">
     <h3>Books</h3>
-    <p class="small">Long-form fiction and book projects.</p>
-    <p><a href="{{ '/books' | relative_url }}">Browse Books →</a></p>
+    <p>Long-form fiction and book projects.</p>
+    <p><a href="{{ '/books' | relative_url }}">Browse →</a></p>
   </div>
 
   <div class="card">
     <h3>Poetry</h3>
-    <p class="small">Poems, sequences, and collections.</p>
-    <p><a href="{{ '/poetry' | relative_url }}">Browse Poetry →</a></p>
+    <p>Poems, sequences, and collections.</p>
+    <p><a href="{{ '/poetry' | relative_url }}">Browse →</a></p>
   </div>
 
   <div class="card">
     <h3>Essays</h3>
-    <p class="small">Creative nonfiction and reflective writing.</p>
-    <p><a href="{{ '/essays' | relative_url }}">Browse Essays →</a></p>
+    <p>Creative nonfiction and reflective writing.</p>
+    <p><a href="{{ '/essays' | relative_url }}">Browse →</a></p>
   </div>
 
   <div class="card">
     <h3>Screenplays</h3>
-    <p class="small">Film + TV scripts and experiments.</p>
-    <p><a href="{{ '/screenplays' | relative_url }}">Browse Screenplays →</a></p>
-  </div>
-
-  <div class="card">
-    <h3>Fragments</h3>
-    <p class="small">Short prose, vignettes, and in-between forms.</p>
-    <p><a href="{{ '/fragments' | relative_url }}">Browse Fragments →</a></p>
+    <p>Film + TV scripts and experiments.</p>
+    <p><a href="{{ '/screenplays' | relative_url }}">Browse →</a></p>
   </div>
 </section>
 
-<h2>Currently in progress</h2>
+<h2>In progress</h2>
 <ul>
-  <li><strong>Iron</strong> — <a href="{{ '/iron' | relative_url }}">read here</a></li>
+  <li><strong>Iron</strong> — <a href="{{ '/iron' | relative_url }}">read here</a> <span class="badge">in progress</span></li>
 </ul>
 
-<p class="small">Last updated: {{ site.time | date: "%B %-d, %Y" }}</p>
+<footer>
+  <p class="small">© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+</footer>
