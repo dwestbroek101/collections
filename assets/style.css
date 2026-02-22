@@ -1,13 +1,13 @@
 /* ===== GLOBAL COLOR PALETTE ===== */
 
 :root{
-  --bg: #162018;        /* dark green page background */
-  --paper: #f4f6ef;     /* reading pages */
-  --text: #e8efe8;      /* homepage text */
-  --muted: #a8b8a8;
-  --border: #324a35;
-  --link: #a8cfa8;
-  --accent: #2b3f2f;
+  --bg: #18241c;        /* deep forest homepage */
+  --paper: #eef2e6;     /* softer reading page */
+  --text: #e6efe6;      /* homepage text */
+  --muted: #9fb09f;
+  --border: #3a5440;
+  --link: #b9ddb9;
+  --accent: #2f4434;
 }
 
 /* ===== TYPOGRAPHY ===== */
