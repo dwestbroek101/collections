@@ -78,14 +78,14 @@ header{
 
 /* ===== READING PAGES ("BOOK MODE") ===== */
 .reading-page{
-  background: pink;     /* soft sage paper */
-  color: black;          /* deep green text */
+  background: var(--paper);
+  color: #1c261c;
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid #BAC095;
+  border: 1px solid var(--border);
   line-height: 1.75;
 }
-
+.reading-page a { color: #1f5a3a; }
 /* Small text */
 
 .small{
