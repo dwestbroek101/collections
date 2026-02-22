@@ -147,13 +147,3 @@ h2 { margin-top: 2rem; }
 /* --- footer --- */
 footer { margin: 2.5rem 0 1.5rem; text-align: center; color: var(--muted); }
 hr { border: none; border-top: 1px solid var(--border); margin: 1.25rem 0; opacity: 0.8; }
-
-/* --- keep reading pages “book mode” --- */
-.reading-page{
-  background: #fff;
-  color: #111;
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.08);
-}
-.reading-page a { color: #1a4aa3; } /* optional: standard readable blue in book mode */
